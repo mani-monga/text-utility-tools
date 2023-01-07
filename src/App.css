@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  color: red;
+}
+
+
+.herobtn{
+  width: 5px;
+  -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+    
+}
+.nav-item a{
+  text-decoration: none;
+  margin: 0 10px;  
+}
+.nav-item a:hover{
+  color: grey;
+}
+.dropdown-menu a:hover{
+  background-color: transparent;
+  color: blue;
+}
+.accordion-item{
+  text-align: center;
+}
+.accordion-body svg{
+      margin: 0 80px;
+      font-size: 3em;
+}
+.herobtn:hover{
+  width: 50px;
+}
+.herobtn:hover::after{
+  content: white;
+  color: white;
+}
